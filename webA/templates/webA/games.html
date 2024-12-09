@@ -1,0 +1,45 @@
+{% include 'webA/main.html' %}
+{% load static %}
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<link href="{% static '/css/hon.css'  %}" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>    My games in Scratch: </h3>
+    <div class="project1">
+        <div class="container">
+            <img src="{% static 'images/projectB.png' %}" style="width:100%">
+            <p>Titanic</p>
+            <p>(Scratch/2024)</p>
+        </div>
+    </div>
+    <div class="project1">
+        <div class="container">
+            <img src="{% static 'images/projectD.png' %}" style="width:98%">
+            <p>Breakout</p>
+            <p>(Scratch/2024)</p>
+        </div>
+    </div>
+    <div class="project1">
+        <div class="container">
+            <img src="{% static 'images/projectE.png' %}" style="width:97%">
+            <p>Invaders</p>
+            <p>(Scratch/2024)</p>
+        </div>
+    </div>
+</body>
+</html>

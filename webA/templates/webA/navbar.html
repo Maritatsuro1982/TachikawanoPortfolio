@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <lin1>-------</lin1>
+    <lin>IAN'S PORTFOLIO</lin>
+    <div class="taskbar">
+        <br>
+        <lin1>-----------</lin1>
+        <li1><a href="{% url 'home' %}">Home</a></li1>
+        <lil> - </lil>
+        <li1><a href="{% url 'about' %}">About</a></li1>
+        <lil> - </lil>
+        <li1><a href="{% url 'densha' %}">Densha</a></li1>
+        <lil> - </lil>
+        <div class="dropdown">
+            <li1><span>Works</span></li1>
+            <div class="dropdown-content">
+                <li><a href="{% url 'games' %}">Games</a></li>
+                <li><a href="{% url 'web' %}">Web</a></li>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

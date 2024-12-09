@@ -1,0 +1,183 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Name>TachikawanoPortfolio</Name>
+    <RootNamespace>TachikawanoPortfolio</RootNamespace>
+    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+    <TestFramework>Pytest</TestFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>3812c910-f77c-4e6f-98c0-12adafa3e944</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{5F0BE9CA-D677-4A4D-8806-6076C0FAAD37};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>manage.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Django launcher</LaunchProvider>
+    <DjangoSettingsModule>TachikawanoPortfolio.settings</DjangoSettingsModule>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <OutputPath>.</OutputPath>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="manage.py" />
+    <Compile Include="TachikawanoPortfolio\__init__.py" />
+    <Compile Include="TachikawanoPortfolio\settings.py" />
+    <Compile Include="TachikawanoPortfolio\urls.py" />
+    <Compile Include="TachikawanoPortfolio\wsgi.py" />
+    <Compile Include="webA\admin.py" />
+    <Compile Include="webA\apps.py" />
+    <Compile Include="webA\migrations\__init__.py" />
+    <Compile Include="webA\models.py" />
+    <Compile Include="webA\tests.py" />
+    <Compile Include="webA\urls.py" />
+    <Compile Include="webA\views.py" />
+    <Compile Include="webA\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="requirements.txt" />
+    <Content Include="static\css\hon.css" />
+    <Content Include="static\images\0shinkansenyurakucho.jpg" />
+    <Content Include="static\images\100_shinkansen.jpeg" />
+    <Content Include="static\images\103_osaka_loop.jpg" />
+    <Content Include="static\images\113tokaido01.jpg" />
+    <Content Include="static\images\117_113.jpg" />
+    <Content Include="static\images\151_kodama_tokaido.jpg" />
+    <Content Include="static\images\183azusa3.jpg" />
+    <Content Include="static\images\185_e231-1000.jpg" />
+    <Content Include="static\images\200shinkansen1988omiya.jpg" />
+    <Content Include="static\images\201osakaloop.jpg" />
+    <Content Include="static\images\201tokyochuo1989.jpg" />
+    <Content Include="static\images\205kusatsu_kosei.jpg" />
+    <Content Include="static\images\205tabatayamanote2002february.jpg" />
+    <Content Include="static\images\207_tokaido_1993.jpg" />
+    <Content Include="static\images\209saitamashintoshinkeihintohoku2006october8.jpg" />
+    <Content Include="static\images\209sobu_local.jpg" />
+    <Content Include="static\images\211_tokaido.jpg" />
+    <Content Include="static\images\221inosakatokaido1989march.jpg" />
+    <Content Include="static\images\223_2000_tokaido_konan-yamate.jpg" />
+    <Content Include="static\images\251_toakido_super_view.jpg" />
+    <Content Include="static\images\253_narita_express.jpg" />
+    <Content Include="static\images\300_shinkansen_toyohashi.jpg" />
+    <Content Include="static\images\321futsutokaido.jpg" />
+    <Content Include="static\images\323osakalooposakajoukoen.jpg" />
+    <Content Include="static\images\400_TSUBASA_E4_MAX.png" />
+    <Content Include="static\images\485_raicho_tokaido.jpg" />
+    <Content Include="static\images\500_sanyo_kodama.jpg" />
+    <Content Include="static\images\583_kitaguni.jpg" />
+    <Content Include="static\images\681thunderbird.jpg" />
+    <Content Include="static\images\e215_acty_kaisoku_tokaido.jpg" />
+    <Content Include="static\images\e217_yokosuka.jpg" />
+    <Content Include="static\images\e231-e233-yamanote-keihin-tohoku.jpeg" />
+    <Content Include="static\images\e231_3000_tokaido.jpeg" />
+    <Content Include="static\images\e233chuo.jpg" />
+    <Content Include="static\images\e235_okachimachi_yamanote.jpg" />
+    <Content Include="static\images\e257-e353_chuo.jpg" />
+    <Content Include="static\images\e259_narita_express.jpg" />
+    <Content Include="static\images\e261_saphir_odoriko_ito_sen.jpg" />
+    <Content Include="static\images\e2_img01.jpg" />
+    <Content Include="static\images\e351_super_azusa.jpg" />
+    <Content Include="static\images\e3_komachi_e5_hayabusa.jpg" />
+    <Content Include="static\images\E3_TSUBASA_E2_YAMABIKO.jpg" />
+    <Content Include="static\images\e4_max__e2_yamabiko.jpeg" />
+    <Content Include="static\images\e5_img01.jpg" />
+    <Content Include="static\images\e6_ee5.jpg" />
+    <Content Include="static\images\e7_img01.jpg" />
+    <Content Include="static\images\ef66_fuji.jpg" />
+    <Content Include="static\images\Hayabusa-limited-express_konoha_2.jpg" />
+    <Content Include="static\images\Ian.jpg" />
+    <Content Include="static\images\jrw700e.jpg" />
+    <Content Include="static\images\kiha58_kiha40_san%27in.jpg" />
+    <Content Include="static\images\n700s_tokaido_shinkansen.jpg" />
+    <Content Include="static\images\projectA.png" />
+    <Content Include="static\images\projectB.png" />
+    <Content Include="static\images\projectC.png" />
+    <Content Include="static\images\projectD.png" />
+    <Content Include="static\images\projectE.png" />
+    <Content Include="static\images\projectF.png" />
+    <Content Include="static\images\projectG.png" />
+    <Content Include="static\images\projectH.png" />
+    <Content Include="static\images\Shinkansen-e1.jpg" />
+    <Content Include="webA\templates\webA\about.html" />
+    <Content Include="webA\templates\webA\densha.html" />
+    <Content Include="webA\templates\webA\web.html" />
+    <Content Include="webA\templates\webA\games.html" />
+    <Content Include="webA\templates\webA\home.html" />
+    <Content Include="webA\templates\webA\index.html" />
+    <Content Include="webA\templates\webA\main.html" />
+    <Content Include="webA\templates\webA\navbar.html" />
+    <Content Include="webA\templates\webA\resume.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="static\" />
+    <Folder Include="static\css\" />
+    <Folder Include="static\images\" />
+    <Folder Include="TachikawanoPortfolio\" />
+    <Folder Include="webA\" />
+    <Folder Include="webA\migrations\" />
+    <Folder Include="webA\templates\" />
+    <Folder Include="webA\templates\webA\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
+      <Id>env</Id>
+      <Version>3.11</Version>
+      <Description>env (Python 3.11 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Django.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
